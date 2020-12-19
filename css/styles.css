@@ -1,3 +1,6 @@
+/* Site is coded mobile-first, so styles without a media-query are for mobile (and up unless overrided) */
+
+/* General Rules */
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -10,14 +13,8 @@ h2 {
     color: #3046C5;
 }
 
-header h2 {
-    color: #CEC8FF;
-}
 
-.site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
+/* Full-site Custom Styles */
 
 .jumbotron {
     margin: 0;
@@ -26,12 +23,21 @@ header h2 {
     color: white;
 }
 
+header h2 {
+    color: #CEC8FF;
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
 
-.navbar {
-    background-color: #901CAD;
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
 }
