@@ -27,7 +27,7 @@ header h2 {
     color: #CEC8FF;
 }
 
-.navbar {
+.navbar-dark {
     background-color: #901CAD;
 }
 
@@ -35,6 +35,14 @@ header h2 {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.carousel {
+    border: solid #5637dd;
 }
 
 .site-footer {
